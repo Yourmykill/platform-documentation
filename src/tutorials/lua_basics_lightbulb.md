@@ -449,7 +449,7 @@ To be able to spawn the template, you will need a way to reference it in your sc
 3. On the first line, paste the code that you copied. It will look something like this:
 
 ```lua
-local propLightTemplate = script:GetCustomPropert("LightTemplate")
+local propLightTemplate = script:GetCustomProperty("LightTemplate")
 ```
 
 - `propLightTemplate` is the name of the variable. You can change this variable name, but will have to make sure that you change it in this tutorial every single place `propLightTemplate` is used.
